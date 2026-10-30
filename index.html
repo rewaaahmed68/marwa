@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marwa Khaled — Web & UI/UX Designer, Front-End Developer</title>
+  <meta name="description" content="Marwa Khaled Ali — Web Designer, UI/UX Designer & Front-End Developer. Creating visually appealing, modern & professional websites.">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════════
+     ▓ NAV
+     ══════════════════════════════════════════════════════════ -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-brand">
+      <span class="brand-mark">MK<span class="brand-dot">.</span></span>
+    </a>
+
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#services">Services</a>
+      <a href="#contact" class="nav-cta">Let's talk <i class="bi bi-arrow-up-right"></i></a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ══════════════════════════════════════════════════════════
+     ▓ HERO
+     ══════════════════════════════════════════════════════════ -->
+<section id="hero" class="hero">
+  <div class="cursor-orb" aria-hidden="true"></div>
+
+  <div class="hero-inner">
+    <div class="hero-eyebrow reveal">
+      <span class="mono">Portfolio — 2025</span>
+      <span class="dot"></span>
+      <span class="mono">Cairo, Egypt</span>
+    </div>
+
+    <h1 class="hero-title reveal">
+      Creating <em>visually appealing</em>,<br>
+      modern &amp; professional<br>
+      websites<span class="accent">.</span>
+    </h1>
+
+    <p class="hero-sub reveal">
+      I'm <strong>Marwa Khaled</strong> — a designer who codes. I bridge
+      thoughtful UI/UX with clean front-end development, turning ideas into
+      interfaces that work as beautifully as they look.
+    </p>
+
+    <div class="hero-cta reveal">
+      <a href="#work" class="btn-primary">
+        View Projects <i class="bi bi-arrow-down-right"></i>
+      </a>
+      <a href="#contact" class="btn-ghost">
+        Get in touch
+      </a>
+    </div>
+
+    <div class="hero-index reveal">
+      <div class="hero-index-item">
+        <span class="mono">Role</span>
+        <span>Web · UI/UX · Front-End</span>
+      </div>
+      <div class="hero-index-item">
+        <span class="mono">Currently</span>
+        <span>Web Design @ NTI</span>
+      </div>
+      <div class="hero-index-item">
+        <span class="mono">Status</span>
+        <span class="status-dot">Open to work</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll reveal" aria-hidden="true">
+    <span class="mono">Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     ▓ MARQUEE
+     ══════════════════════════════════════════════════════════ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Web Design</span><span class="sep">✳</span>
+    <span>UI / UX</span><span class="sep">✳</span>
+    <span>Figma</span><span class="sep">✳</span>
+    <span>Front-End</span><span class="sep">✳</span>
+    <span>HTML5</span><span class="sep">✳</span>
+    <span>CSS3</span><span class="sep">✳</span>
+    <span>JavaScript</span><span class="sep">✳</span>
+    <span>Bootstrap</span><span class="sep">✳</span>
+    <span>Responsive</span><span class="sep">✳</span>
+    <span>Web Design</span><span class="sep">✳</span>
+    <span>UI / UX</span><span class="sep">✳</span>
+    <span>Figma</span><span class="sep">✳</span>
+    <span>Front-End</span><span class="sep">✳</span>
+    <span>HTML5</span><span class="sep">✳</span>
+    <span>CSS3</span><span class="sep">✳</span>
+    <span>JavaScript</span><span class="sep">✳</span>
+    <span>Bootstrap</span><span class="sep">✳</span>
+    <span>Responsive</span><span class="sep">✳</span>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     ▓ ABOUT
+     ══════════════════════════════════════════════════════════ -->
+<section id="about" class="section">
+  <div class="section-inner">
+    <div class="section-label reveal">
+      <span class="mono">01 — About</span>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-bio reveal">
+        <h2 class="section-heading">
+          A designer who <em>codes</em> — and a developer who <em>designs</em>.
+        </h2>
+
+        <p class="body-text">
+          I'm Marwa, a Web Designer and Front-End Developer based in Egypt.
+          My work sits at the intersection of <strong>visual design</strong> and
+          <strong>technical execution</strong> — I design thoughtful, user-centered
+          interfaces in Figma, then bring them to life with clean, responsive
+          HTML, CSS, and JavaScript.
+        </p>
+
+        <p class="body-text">
+          I care about the details that most people don't notice: spacing,
+          rhythm, hierarchy, and how a page feels when it moves. My goal is
+          always the same — interfaces that feel <em>designed</em>, not assembled.
+        </p>
+
+        <a href="#work" class="text-link">
+          See my work <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
+
+      <aside class="about-widget reveal">
+        <div class="widget-head">
+          <span class="mono">Currently</span>
+          <span class="widget-pulse"></span>
+        </div>
+
+        <ul class="widget-list">
+          <li>
+            <span class="widget-key">Location</span>
+            <span class="widget-val">Egypt</span>
+          </li>
+          <li>
+            <span class="widget-key">Studying</span>
+            <span class="widget-val">Web Design @ NTI</span>
+          </li>
+          <li>
+            <span class="widget-key">Open to</span>
+            <span class="widget-val">Freelance · Junior Roles</span>
+          </li>
+          <li>
+            <span class="widget-key">Tools</span>
+            <span class="widget-val">Figma · VS Code · GitHub</span>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     ▓ WORK / PROJECTS
+     ══════════════════════════════════════════════════════════ -->
+<section id="work" class="section section-alt">
+  <div class="section-inner">
+    <div class="section-label reveal">
+      <span class="mono">02 — Selected Work</span>
+    </div>
+
+    <h2 class="section-heading reveal">
+      Projects that taught me something.
+    </h2>
+
+    <div class="projects">
+
+      <!-- ═══ PROJECT 01: SIGHTMATE ═══ -->
+      <article class="project reveal">
+        <div class="project-media">
+          <div class="media-frame" data-lightbox="images/sightmate-1.jpg">
+            <img src="images/sightmate-1.jpg" alt="SightMate — accessibility app"
+                 onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<div class=&quot;media-placeholder&quot;><span class=&quot;mono&quot;>Main Image</span><span>sightmate-1.jpg</span></div>';">
+          </div>
+
+          <div class="thumb-strip">
+            <div class="thumb" data-lightbox="images/sightmate-2.jpg">
+              <img src="images/sightmate-2.jpg" alt="SightMate screen 2"
+                   onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>2</span>';">
+            </div>
+            <div class="thumb" data-lightbox="images/sightmate-3.jpg">
+              <img src="images/sightmate-3.jpg" alt="SightMate screen 3"
+                   onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>3</span>';">
+            </div>
+            <div class="thumb" data-lightbox="images/sightmate-4.jpg">
+              <img src="images/sightmate-4.jpg" alt="SightMate screen 4"
+                   onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>4</span>';">
+            </div>
+          </div>
+        </div>
+
+        <div class="project-info">
+          <div class="project-meta-top">
+            <span class="mono">01</span>
+            <span class="mono context">Graduation Project</span>
+          </div>
+          <h3 class="project-title">SightMate</h3>
+          <p class="project-tagline">An accessibility-first navigation app for the visually impaired.</p>
+          <p class="project-desc">
+            A conceptual mobile app designed to help visually impaired individuals
+            navigate their environment safely and independently — combining AI
+            vision, voice interaction, and GPS.
+          </p>
+
+          <div class="project-tags">
+            <span>UI/UX Designer</span>
+            <span>Figma</span>
+            <span>Mobile</span>
+          </div>
+
+          <button class="text-link-btn" data-bs-toggle="modal" data-bs-target="#modal-sightmate">
+            View Case Study <i class="bi bi-arrow-up-right"></i>
+          </button>
+        </div>
+      </article>
+
+      <!-- ═══ PROJECT 02: ABLA FADILA ═══ -->
+      <article class="project reverse reveal">
+        <div class="project-media">
+          <div class="media-frame" data-lightbox="images/ablafadila-1.jpg">
+            <img src="images/ablafadila-1.jpg" alt="Abla Fadila — children's storytelling app"
+                 onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<div class=&quot;media-placeholder&quot;><span class=&quot;mono&quot;>Main Image</span><span>ablafadila-1.jpg</span></div>';">
+          </div>
+
+          <div class="thumb-strip">
+            <div class="thumb" data-lightbox="images/ablafadila-2.jpg">
+              <img src="images/ablafadila-2.jpg" alt="Abla Fadila screen 2"
+                   onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>2</span>';">
+            </div>
+            <div class="thumb" data-lightbox="images/ablafadila-3.jpg">
+              <img src="images/ablafadila-3.jpg" alt="Abla Fadila screen 3"
+                   onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>3</span>';">
+            </div>
+            <div class="thumb" data-lightbox="images/ablafadila-4.jpg">
+              <img src="images/ablafadila-4.jpg" alt="Abla Fadila screen 4"
+                   onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>4</span>';">
+            </div>
+          </div>
+        </div>
+
+        <div class="project-info">
+          <div class="project-meta-top">
+            <span class="mono">02</span>
+            <span class="mono context">Collaboration — Fine Arts</span>
+          </div>
+          <h3 class="project-title">Abla Fadila</h3>
+          <p class="project-tagline">A children's storytelling app preserving traditional Arabic stories.</p>
+          <p class="project-desc">
+            A storytelling app inspired by the legacy of Abla Fadila, designed to
+            introduce a new generation to traditional Arabic stories through a
+            warm, child-friendly interface. My role focused on the UI/UX.
+          </p>
+
+          <div class="project-tags">
+            <span>UI/UX Designer</span>
+            <span>Figma</span>
+            <span>Mobile</span>
+          </div>
+
+          <button class="text-link-btn" data-bs-toggle="modal" data-bs-target="#modal-ablafadila">
+            View Case Study <i class="bi bi-arrow-up-right"></i>
+          </button>
+        </div>
+      </article>
+
+      <!-- ═══ PROJECT 03: POWER COACH ═══ -->
+      <article class="project reveal">
+        <div class="project-media">
+          <div class="media-frame" data-lightbox="images/powercoach-1.jpg">
+            <img src="images/powercoach-1.jpg" alt="Power Coach — fitness coaching app"
+                 onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<div class=&quot;media-placeholder&quot;><span class=&quot;mono&quot;>Main Image</span><span>powercoach-1.jpg</span></div>';">
+          </div>
+
+          <div class="thumb-strip">
+            <div class="thumb" data-lightbox="images/powercoach-2.jpg">
+              <img src="images/powercoach-2.jpg" alt="Power Coach screen 2"
+                   onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>2</span>';">
+            </div>
+            <div class="thumb" data-lightbox="images/powercoach-3.jpg">
+              <img src="images/powercoach-3.jpg" alt="Power Coach screen 3"
+                   onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>3</span>';">
+            </div>
+            <div class="thumb" data-lightbox="images/powercoach-4.jpg">
+              <img src="images/powercoach-4.jpg" alt="Power Coach screen 4"
+                   onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>4</span>';">
+            </div>
+          </div>
+        </div>
+
+        <div class="project-info">
+          <div class="project-meta-top">
+            <span class="mono">03</span>
+            <span class="mono context">University Assignment</span>
+          </div>
+          <h3 class="project-title">Power Coach</h3>
+          <p class="project-tagline">An online fitness coaching platform for trainers and clients.</p>
+          <p class="project-desc">
+            A fitness coaching app where users subscribe to personal trainers,
+            browse structured workout programs, and follow guided exercise
+            instructions — with a clear, motivational interface.
+          </p>
+
+          <div class="project-tags">
+            <span>UI/UX Designer</span>
+            <span>Figma</span>
+            <span>Mobile</span>
+          </div>
+
+          <button class="text-link-btn" data-bs-toggle="modal" data-bs-target="#modal-powercoach">
+            View Case Study <i class="bi bi-arrow-up-right"></i>
+          </button>
+        </div>
+      </article>
+
+      <!-- ═══ PROJECT 04: FURNITURE ═══ -->
+      <article class="project reverse reveal">
+        <div class="project-media">
+          <div class="media-frame" data-lightbox="images/furniture-1.jpg">
+            <img src="images/furniture-1.jpg" alt="Furniture E-Commerce Website"
+                 onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<div class=&quot;media-placeholder&quot;><span class=&quot;mono&quot;>Main Image</span><span>furniture-1.jpg</span></div>';">
+          </div>
+
+          <div class="thumb-strip">
+            <div class="thumb" data-lightbox="images/furniture-2.jpg">
+              <img src="images/furniture-2.jpg" alt="Furniture screen 2"
+                   onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>2</span>';">
+            </div>
+            <div class="thumb" data-lightbox="images/furniture-3.jpg">
+              <img src="images/furniture-3.jpg" alt="Furniture screen 3"
+                   onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>3</span>';">
+            </div>
+            <div class="thumb" data-lightbox="images/furniture-4.jpg">
+              <img src="images/furniture-4.jpg" alt="Furniture screen 4"
+                   onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>4</span>';">
+            </div>
+          </div>
+        </div>
+
+        <div class="project-info">
+          <div class="project-meta-top">
+            <span class="mono">04</span>
+            <span class="mono context">NTI — Final Project</span>
+          </div>
+          <h3 class="project-title">Furniture E-Commerce</h3>
+          <p class="project-tagline">A furniture-focused online store built from scratch.</p>
+          <p class="project-desc">
+            A team-built e-commerce website focused on product presentation for
+            furniture. My role centered on the front-end — implementing responsive
+            layouts and product-focused UI.
+          </p>
+
+          <div class="project-tags">
+            <span>Front-End Developer</span>
+            <span>HTML/CSS/JS</span>
+            <span>Team</span>
+          </div>
+
+          <button class="text-link-btn" data-bs-toggle="modal" data-bs-target="#modal-furniture">
+            View Case Study <i class="bi bi-arrow-up-right"></i>
+          </button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     ▓ SKILLS
+     ══════════════════════════════════════════════════════════ -->
+<section id="skills" class="section">
+  <div class="section-inner">
+    <div class="section-label reveal">
+      <span class="mono">03 — Skills</span>
+    </div>
+
+    <h2 class="section-heading reveal">
+      What I bring to the table.
+    </h2>
+
+    <div class="skills-grid">
+      <div class="skills-col reveal">
+        <div class="skills-head">
+          <span class="mono">Design</span>
+          <h3>Thinking in systems &amp; screens.</h3>
+        </div>
+        <div class="chip-group">
+          <span class="chip">Figma</span>
+          <span class="chip">UI Design</span>
+          <span class="chip">UX Design</span>
+        </div>
+      </div>
+
+      <div class="skills-col reveal">
+        <div class="skills-head">
+          <span class="mono">Development</span>
+          <h3>Building what I design.</h3>
+        </div>
+        <div class="chip-group">
+          <span class="chip">HTML5</span>
+          <span class="chip">CSS3</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">Bootstrap</span>
+          <span class="chip">Responsive Web Design</span>
+          <span class="chip">Git &amp; GitHub <span class="chip-sub">basics</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     ▓ EDUCATION
+     ══════════════════════════════════════════════════════════ -->
+<section id="education" class="section section-alt">
+  <div class="section-inner">
+    <div class="section-label reveal">
+      <span class="mono">04 — Education</span>
+    </div>
+
+    <h2 class="section-heading reveal">
+      Still learning, on purpose.
+    </h2>
+
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="mono timeline-date">Currently Pursuing</span>
+          <h3>Web Design Training</h3>
+          <p class="timeline-org">National Telecommunication Institute (NTI) — Egypt</p>
+          <p class="timeline-desc">
+            Currently pursuing Web Design training at NTI, focused on UI/UX
+            principles, visual design fundamentals, and modern front-end
+            development practices.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <span class="mono timeline-date">Expected 2029</span>
+          <h3>Faculty of Computers and Artificial Intelligence</h3>
+          <p class="timeline-org">Helwan University — Egypt</p>
+          <p class="timeline-desc">
+            Studying computer science fundamentals alongside my design and
+            front-end practice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     ▓ SERVICES
+     ══════════════════════════════════════════════════════════ -->
+<section id="services" class="section">
+  <div class="section-inner">
+    <div class="section-label reveal">
+      <span class="mono">05 — Services</span>
+    </div>
+
+    <h2 class="section-heading reveal">
+      How I can help.
+    </h2>
+
+    <div class="services-grid">
+      <article class="service-card reveal">
+        <div class="service-num mono">01</div>
+        <h3>Web Design</h3>
+        <p>
+          Designing modern, responsive websites that look intentional — with
+          careful attention to hierarchy, spacing, and visual rhythm.
+        </p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-num mono">02</div>
+        <h3>UI/UX Design</h3>
+        <p>
+          Crafting user-centered interfaces and flows in Figma — grounded in
+          research, clarity, and inclusive design principles.
+        </p>
+      </article>
+
+      <article class="service-card reveal">
+        <div class="service-num mono">03</div>
+        <h3>Front-End Development</h3>
+        <p>
+          Bringing designs to life with clean, semantic HTML, CSS, and
+          JavaScript — responsive, accessible, and cross-browser.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     ▓ CONTACT
+     ══════════════════════════════════════════════════════════ -->
+<section id="contact" class="section section-contact">
+  <div class="section-inner">
+    <div class="section-label reveal">
+      <span class="mono">06 — Contact</span>
+    </div>
+
+    <h2 class="contact-headline reveal">
+      Let's make something<br>
+      <em>worth looking at</em>.
+    </h2>
+
+    <p class="contact-sub reveal">
+      Open to freelance projects, junior roles, and thoughtful collaborations.
+      The fastest way to reach me is by email.
+    </p>
+
+    <a href="mailto:marwa.khaled.0120@gmail.com" class="contact-mail reveal">
+      marwa.khaled.0120@gmail.com
+      <i class="bi bi-arrow-up-right"></i>
+    </a>
+
+    <div class="contact-links reveal">
+      <a href="https://www.linkedin.com/in/marwa-khaled55" target="_blank" class="contact-link">
+        <span class="mono">LinkedIn</span>
+        <span>marwa-khaled55 <i class="bi bi-arrow-up-right"></i></span>
+      </a>
+      <a href="mailto:marwa.khaled.0120@gmail.com" class="contact-link">
+        <span class="mono">Email</span>
+        <span>marwa.khaled.0120@gmail.com</span>
+      </a>
+      <div class="contact-link">
+        <span class="mono">Location</span>
+        <span>Egypt</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════════
+     ▓ FOOTER
+     ══════════════════════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <span class="mono">© 2025 Marwa Khaled Ali</span>
+    <span class="mono">Designed &amp; built with care</span>
+  </div>
+</footer>
+
+<!-- ══════════════════════════════════════════════════════════
+     ▓ MODAL 01 — SIGHTMATE
+     ══════════════════════════════════════════════════════════ -->
+<div class="modal fade case-modal" id="modal-sightmate" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <button type="button" class="modal-close" data-bs-dismiss="modal"><i class="bi bi-x-lg"></i></button>
+
+      <div class="case-head">
+        <span class="mono">01 — Case Study</span>
+        <h2>SightMate</h2>
+        <p class="case-tagline">An accessibility-first navigation app for the visually impaired.</p>
+      </div>
+
+      <div class="case-meta">
+        <div><span class="mono">Context</span><span>Graduation Project</span></div>
+        <div><span class="mono">Role</span><span>UI/UX Designer</span></div>
+        <div><span class="mono">Tool</span><span>Figma</span></div>
+        <div><span class="mono">Type</span><span>Mobile App</span></div>
+      </div>
+
+      <div class="case-gallery">
+        <div class="case-gallery-item" data-lightbox="images/sightmate-m1.jpg">
+          <img src="images/sightmate-m1.jpg" alt="SightMate mockup 1"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 1</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/sightmate-m2.jpg">
+          <img src="images/sightmate-m2.jpg" alt="SightMate mockup 2"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 2</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/sightmate-m3.jpg">
+          <img src="images/sightmate-m3.jpg" alt="SightMate mockup 3"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 3</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/sightmate-m4.jpg">
+          <img src="images/sightmate-m4.jpg" alt="SightMate mockup 4"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 4</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/sightmate-m5.jpg">
+          <img src="images/sightmate-m5.jpg" alt="SightMate mockup 5"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 5</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/sightmate-m6.jpg">
+          <img src="images/sightmate-m6.jpg" alt="SightMate mockup 6"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 6</span>';">
+        </div>
+      </div>
+
+      <div class="case-body">
+        <h4>The brief</h4>
+        <p>
+          Design a mobile app that helps visually impaired individuals navigate
+          their environment safely and independently — reducing reliance on
+          others for everyday movement.
+        </p>
+
+        <h4>Key features</h4>
+        <ul class="case-list">
+          <li><strong>AI camera assistance</strong> — real-time scene description via the phone's camera.</li>
+          <li><strong>Voice interaction</strong> — audio-first navigation and command system.</li>
+          <li><strong>GPS navigation</strong> — outdoor guidance with clear audio cues.</li>
+          <li><strong>Companion tracking</strong> — a trusted contact can follow the journey (with mutual consent).</li>
+          <li><strong>Emergency triple-tap</strong> — a discreet gesture to instantly alert a contact.</li>
+        </ul>
+
+        <h4>Design focus</h4>
+        <p>
+          Accessibility came first — every decision was filtered through
+          audio-first interaction, high-contrast visuals, and generous touch
+          targets. The challenge was making a complex system feel calm and
+          trustworthy.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     ▓ MODAL 02 — ABLA FADILA
+     ══════════════════════════════════════════════════════════ -->
+<div class="modal fade case-modal" id="modal-ablafadila" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <button type="button" class="modal-close" data-bs-dismiss="modal"><i class="bi bi-x-lg"></i></button>
+
+      <div class="case-head">
+        <span class="mono">02 — Case Study</span>
+        <h2>Abla Fadila</h2>
+        <p class="case-tagline">A children's storytelling app preserving traditional Arabic stories.</p>
+      </div>
+
+      <div class="case-meta">
+        <div><span class="mono">Context</span><span>Collaboration — Fine Arts</span></div>
+        <div><span class="mono">Role</span><span>UI/UX Designer</span></div>
+        <div><span class="mono">Tool</span><span>Figma</span></div>
+        <div><span class="mono">Type</span><span>Mobile App</span></div>
+      </div>
+
+      <div class="case-gallery">
+        <div class="case-gallery-item" data-lightbox="images/ablafadila-m1.jpg">
+          <img src="images/ablafadila-m1.jpg" alt="Abla Fadila mockup 1"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 1</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/ablafadila-m2.jpg">
+          <img src="images/ablafadila-m2.jpg" alt="Abla Fadila mockup 2"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 2</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/ablafadila-m3.jpg">
+          <img src="images/ablafadila-m3.jpg" alt="Abla Fadila mockup 3"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 3</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/ablafadila-m4.jpg">
+          <img src="images/ablafadila-m4.jpg" alt="Abla Fadila mockup 4"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 4</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/ablafadila-m5.jpg">
+          <img src="images/ablafadila-m5.jpg" alt="Abla Fadila mockup 5"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 5</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/ablafadila-m6.jpg">
+          <img src="images/ablafadila-m6.jpg" alt="Abla Fadila mockup 6"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 6</span>';">
+        </div>
+      </div>
+
+      <div class="case-body">
+        <h4>The brief</h4>
+        <p>
+          The original project was a graduation project by a Fine Arts student
+          celebrating the legacy of Abla Fadila — a beloved figure in
+          traditional Arabic storytelling. My role was to design the digital
+          experience: a mobile app for children to discover these stories.
+        </p>
+
+        <h4>What I designed</h4>
+        <ul class="case-list">
+          <li>A warm, child-friendly interface with large touch targets and clear navigation.</li>
+          <li>Illustrated story cards that mirror the visual language of traditional books.</li>
+          <li>Audio narration and read-along moments for early readers.</li>
+          <li>A gentle visual hierarchy that puts the story — not the app — at the center.</li>
+        </ul>
+
+        <h4>Design focus</h4>
+        <p>
+          Cultural preservation through thoughtful design. The interface needed
+          to feel familiar to children, respectful to the source material, and
+          easy for parents to navigate alongside their kids.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     ▓ MODAL 03 — POWER COACH
+     ══════════════════════════════════════════════════════════ -->
+<div class="modal fade case-modal" id="modal-powercoach" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <button type="button" class="modal-close" data-bs-dismiss="modal"><i class="bi bi-x-lg"></i></button>
+
+      <div class="case-head">
+        <span class="mono">03 — Case Study</span>
+        <h2>Power Coach</h2>
+        <p class="case-tagline">An online fitness coaching platform for trainers and clients.</p>
+      </div>
+
+      <div class="case-meta">
+        <div><span class="mono">Context</span><span>University Assignment</span></div>
+        <div><span class="mono">Role</span><span>UI/UX Designer</span></div>
+        <div><span class="mono">Tool</span><span>Figma</span></div>
+        <div><span class="mono">Type</span><span>Mobile App</span></div>
+      </div>
+
+      <div class="case-gallery">
+        <div class="case-gallery-item" data-lightbox="images/powercoach-m1.jpg">
+          <img src="images/powercoach-m1.jpg" alt="Power Coach mockup 1"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 1</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/powercoach-m2.jpg">
+          <img src="images/powercoach-m2.jpg" alt="Power Coach mockup 2"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 2</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/powercoach-m3.jpg">
+          <img src="images/powercoach-m3.jpg" alt="Power Coach mockup 3"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 3</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/powercoach-m4.jpg">
+          <img src="images/powercoach-m4.jpg" alt="Power Coach mockup 4"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 4</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/powercoach-m5.jpg">
+          <img src="images/powercoach-m5.jpg" alt="Power Coach mockup 5"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 5</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/powercoach-m6.jpg">
+          <img src="images/powercoach-m6.jpg" alt="Power Coach mockup 6"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 6</span>';">
+        </div>
+      </div>
+
+      <div class="case-body">
+        <h4>The brief</h4>
+        <p>
+          Design a fitness coaching app that connects users with personal
+          trainers — covering workout programs, subscriptions, and guided
+          exercise flows in one interface.
+        </p>
+
+        <h4>Key features</h4>
+        <ul class="case-list">
+          <li>Structured workout programs with clear progression.</li>
+          <li>Online personal trainer subscriptions with tiered pricing.</li>
+          <li>Step-by-step exercise instructions with visuals.</li>
+          <li>Subscription management in a clear, low-friction flow.</li>
+        </ul>
+
+        <h4>Design focus</h4>
+        <p>
+          Motivation-driven design. The interface had to feel energetic without
+          becoming noisy — using strong typography, clear hierarchy, and
+          progress signals to keep users engaged over time.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════════
+     ▓ MODAL 04 — FURNITURE
+     ══════════════════════════════════════════════════════════ -->
+<div class="modal fade case-modal" id="modal-furniture" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <button type="button" class="modal-close" data-bs-dismiss="modal"><i class="bi bi-x-lg"></i></button>
+
+      <div class="case-head">
+        <span class="mono">04 — Case Study</span>
+        <h2>Furniture E-Commerce</h2>
+        <p class="case-tagline">A furniture-focused online store built from scratch.</p>
+      </div>
+
+      <div class="case-meta">
+        <div><span class="mono">Context</span><span>NTI Final Project</span></div>
+        <div><span class="mono">Role</span><span>Front-End Developer</span></div>
+        <div><span class="mono">Tech</span><span>HTML · CSS · JavaScript</span></div>
+        <div><span class="mono">Type</span><span>Team Project</span></div>
+      </div>
+
+      <div class="case-gallery">
+        <div class="case-gallery-item" data-lightbox="images/furniture-m1.jpg">
+          <img src="images/furniture-m1.jpg" alt="Furniture mockup 1"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 1</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/furniture-m2.jpg">
+          <img src="images/furniture-m2.jpg" alt="Furniture mockup 2"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 2</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/furniture-m3.jpg">
+          <img src="images/furniture-m3.jpg" alt="Furniture mockup 3"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 3</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/furniture-m4.jpg">
+          <img src="images/furniture-m4.jpg" alt="Furniture mockup 4"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 4</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/furniture-m5.jpg">
+          <img src="images/furniture-m5.jpg" alt="Furniture mockup 5"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 5</span>';">
+        </div>
+        <div class="case-gallery-item" data-lightbox="images/furniture-m6.jpg">
+          <img src="images/furniture-m6.jpg" alt="Furniture mockup 6"
+               onerror="this.parentElement.classList.add('is-empty'); this.parentElement.innerHTML='<span class=&quot;mono&quot;>Image 6</span>';">
+        </div>
+      </div>
+
+      <div class="case-body">
+        <h4>The brief</h4>
+        <p>
+          Build a complete e-commerce website focused on furniture — with an
+          emphasis on product presentation and a browsing experience that lets
+          the products speak for themselves.
+        </p>
+
+        <h4>My contribution</h4>
+        <ul class="case-list">
+          <li>Built responsive front-end layouts using HTML, CSS, and JavaScript.</li>
+          <li>Implemented product grids and product detail views focused on presentation.</li>
+          <li>Ensured consistent layout across mobile, tablet, and desktop.</li>
+          <li>Collaborated with teammates in a shared GitHub repository.</li>
+        </ul>
+
+        <h4>Design focus</h4>
+        <p>
+          Whitespace and restraint — letting furniture imagery carry the visual
+          weight while keeping navigation and product details quiet and clear.
+        </p>
+
+        <div class="case-cta">
+          <a href="https://github.com/zeina123445/PROJECT/tree/main/project18" target="_blank" class="btn-primary">
+            View Team Project Repository <i class="bi bi-arrow-up-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
